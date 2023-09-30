@@ -1,0 +1,35 @@
+.clockdate-wrapper {
+  padding: 25px;
+  background: lightseagreen;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  border-radius: 100px;
+  margin:0 auto;
+  margin-top: 45vh;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#clock {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:60px;
+  text-shadow:0px 0px 1px black;
+  color: black;
+}
+
+#clock span {
+  color: black;
+  text-shadow:0px 0px 1px black;
+  font-size: 50px;
+  position:relative;
+  top:-5px;
+  left:10px;
+}
+
+#date {
+  letter-spacing:3px;
+  font-size:14px;
+  font-family:arial,sans-serif;
+  color: black;
+}
